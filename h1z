@@ -1,4 +1,4 @@
-```bat
+
 @echo off
 setlocal enabledelayedexpansion
 set "excel_file=C:\c\cgi.xlsx"
@@ -659,4 +659,4 @@ del temp.csv
 pause
 goto :menu
 )
-```
+
