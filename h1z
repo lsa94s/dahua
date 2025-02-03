@@ -304,7 +304,7 @@ for /f "tokens=1,2 delims=," %%a in (temp.csv) do (
     echo # !ip! #############################
     
     for %%c in (
-        "NTP.Address=10.248.0.10"
+        "NTP.Address=1.2.3.4"
         "NTP.Enable=true"
         "NTP.Port=123"
         "NTP.TimeZoneDesc=Moscow"
